@@ -1,11 +1,13 @@
-* {
-    margin: 0;
-}
+
+.main{
+    margin: 25px;
+} 
 
 .header {
     background-image: url('../images/donation6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
 
 }
 
@@ -38,7 +40,7 @@
     font-family: 'Inter';
     text-align: center;
     color: #121212;
-    
+
 
 }
 
@@ -48,8 +50,8 @@
     padding-bottom: 20px;
     font-weight: 700px;
     font-size: 45px;
-    
-    
+
+
 
 }
 
@@ -57,6 +59,8 @@
     font-weight: 400px;
     font-size: 18px;
     padding: 0 375px 50px 375px;
+    color: #707070;
+
 }
 
 .btn-section {
@@ -65,7 +69,7 @@
 }
 
 
-.donate-btn{
+.donate-btn {
     border: 0;
     width: 135px;
     height: 123px;
@@ -75,14 +79,15 @@
     font-family: 'Inter';
     color: #707070;
     margin: 5px;
-    
+
 }
+
 .donate-btn:hover {
     background: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
     color: #FF5959;
-    
+
 }
 
 
@@ -103,40 +108,101 @@
 .other-amount {
     text-align: center;
     padding: 60px 338px 130px 338px;
-    
+
 }
 
 .o-titel {
     color: #B3B3B3;
     font-size: 18px;
     margin-bottom: 10px;
-    
+
 }
 
 hr {
     border: 1px solid #DADADA;
 }
 
-.other{
+.other {
     margin-top: -10px;
 }
 
 /* donate plan section */
 
-.our-plans{
-  margin: 130 375 50 375;
-  text-align: center;  
+.our-plans {
+    margin: 130 375 50 375;
+    text-align: center;
 }
 
-.plan-title{
+.plan-title {
     font-size: 45px;
     font-family: 'Inter';
     font-weight: 700;
-    
+
 }
-.plan-section{
+.plan{
+    margin: 25px;
+}
+
+.plan-section {
     font-size: 18px;
     color: #707070;
-    
 
+
+}
+.plan-description{
+    color: #707070;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    justify-content: center;
+    
+    
+    
+}
+
+.work-plan-1 {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    width: 360px;
+    height: 352px;
+
+}
+
+.work-plan-2 {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    width: 360px;
+    height: 352px;
+}
+
+.work-plan-3 {
+    background: rgba(255, 211, 89, 0.1);
+    border-radius: 5px;
+    width: 360px;
+    height: 352px;
+}
+
+.ow-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.ow-descrition {
+    color: #707070;
+    margin: 0px;
+}
+
+
+.con-title{
+
+}
+.img-text{
+    display: flex;
 }
