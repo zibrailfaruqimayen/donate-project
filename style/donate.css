@@ -32,22 +32,23 @@
 
 /* donate section style */
 
-a:hover {
-    color: red;
-    text-decoration: none;
-}
+
+
 .donate-section {
     font-family: 'Inter';
     text-align: center;
     color: #121212;
+
 }
 
 .donate-title {
 
     padding-top: 130px;
     padding-bottom: 20px;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 45px;
+    
+    
 
 }
 
@@ -57,14 +58,16 @@ a:hover {
     padding: 0 375px 50px 375px;
 }
 
-.btn-section{
+.btn-section {
     padding: 60px 338px;
     text-align: center;
-    
-    
-    
+
+
+
 }
-.donate-btn {
+
+
+.donate-btn{
     border: 0;
     width: 135px;
     height: 123px;
@@ -72,8 +75,47 @@ a:hover {
     background: #FAFAFA;
     font-size: 30px;
     font-family: 'Inter';
-    padding: 45px 25px;
+    /* padding: 45px 25px; */
     color: #707070;
-    justify-content: 22px;
     
+    margin: 5px;
+}
+.donate-btn:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    
+}
+
+
+
+.btn-primary1 {
+    color: #FFFFFF;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.other-amount {
+    text-align: center;
+    padding: 60px 338px 130px 338px;
+
+
+}
+
+.o-titel {
+    color: #B3B3B3;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #DADADA;
 }
