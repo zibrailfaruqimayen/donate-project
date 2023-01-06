@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+.header{
+    background-image: url('../images/donation6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header-section {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    padding: 175px 307px;
+    color: #FFFFFF;
+
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.donate-section{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;;
+}
