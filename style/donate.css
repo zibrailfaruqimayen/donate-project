@@ -1,11 +1,12 @@
 * {
     margin: 0;
 }
-.header{
+
+.header {
     background-image: url('../images/donation6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .header-section {
@@ -28,10 +29,51 @@
     font-weight: 600;
     font-size: 20px;
 }
-.donate-section{
+
+/* donate section style */
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+.donate-section {
     font-family: 'Inter';
+    text-align: center;
+    color: #121212;
+}
+
+.donate-title {
+
+    padding-top: 130px;
+    padding-bottom: 20px;
     font-weight: 700;
     font-size: 45px;
+
+}
+
+.donate-description {
+    font-weight: 400px;
+    font-size: 18px;
+    padding: 0 375px 50px 375px;
+}
+
+.btn-section{
+    padding: 60px 338px;
     text-align: center;
-    color: #121212;;
+    
+    
+    
+}
+.donate-btn {
+    border: 0;
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    font-size: 30px;
+    font-family: 'Inter';
+    padding: 45px 25px;
+    color: #707070;
+    justify-content: 22px;
+    
 }
